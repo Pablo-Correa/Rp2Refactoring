@@ -41,4 +41,9 @@ public class Movie {
             break;
       }
   }
+
+  public int getFrequentRenterPoints(int daysRented) {
+        if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE) &&
+            each.getDaysRented() > 1) frequentRenterPoints ++;
+  }
 }
